@@ -16,6 +16,10 @@ class Simon
   def take_turn
     self.show_sequence
     self.require_sequence
+    # until game_over
+      self.round_success_message
+    # end
+    
   end
 
   def show_sequence
