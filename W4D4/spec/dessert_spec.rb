@@ -27,11 +27,20 @@ describe Dessert do
   end
 
   describe "#add_ingredient" do
-    it "adds an ingredient to the ingredients array"
+    it "adds an ingredient to the ingredients array" do
+      dessert.add_ingredient("sugar")
+      expect(dessert.ingredients).to include("sugar")
+    end
   end
 
   describe "#mix!" do
-    it "shuffles the ingredient array"
+    it "shuffles the ingredient array" do 
+      dessert.add_ingredient("sugar")
+      dessert.add_ingredient("apple")
+      dessert.add_ingredient("mango")
+      expect(dessert.)
+    end
+
   end
 
   describe "#eat" do
