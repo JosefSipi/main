@@ -1,0 +1,3 @@
+class SillyController < ApplicationController
+    
+end
